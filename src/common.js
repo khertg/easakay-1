@@ -2,8 +2,7 @@ export default {
   sidebarMenu: [
     {accountType: 'ALL', accountStatus: 'ALL', description: 'Dashboard', icon: 'fa fa-tachometer', path: 'dashboard', flag: false, subMenu: null}
   ],
-  profileMenu: [
-  {
+  profileMenu: [{
     title: 'My Profile',
     icon: 'fa fa-cog',
     route: '/profile'
@@ -44,25 +43,6 @@ export default {
   socialMedia: {
     facebook: 'arkila'
   },
-  payments: [{
-    title: 'BDO',
-    logo: require('src/assets/img/bdo.png')
-  }, {
-    title: 'UnionBank of the Philippines',
-    logo: require('src/assets/img/unionbank.png')
-  }, {
-    title: 'Chinabank Corporation',
-    logo: require('src/assets/img/unionbank.png')
-  }, {
-    title: 'Cebuana Lhuillier',
-    logo: require('src/assets/img/cebuanalhuillier.png')
-  }, {
-    title: 'MLhuillier',
-    logo: require('src/assets/img/mlhuillier.png')
-  }, {
-    title: 'GCash',
-    logo: require('src/assets/img/gcash.png')
-  }],
   MINIMUM_WITHDRAWAL: 1000,
   pusher: {
     channel: 'easakay',
