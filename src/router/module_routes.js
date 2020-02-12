@@ -18,7 +18,7 @@ let beforeEnter = (to, from, next) => {
   }
 }
 var devRoutes = []
-let payhiram = require('./dev_routes/payhiram.js')
+let payhiram = require('./dev_routes/app.js')
 devRoutes = devRoutes.concat(payhiram.default.routes)
 for(let x = 0; x < devRoutes.length; x++){
   devRoutes[x]['beforeEnter'] = beforeEnter
