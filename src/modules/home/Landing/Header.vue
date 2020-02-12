@@ -4,7 +4,7 @@
       <span class="logo">
         <a class="navbar-brand" v-on:click="redirect('/')">
           <img src="../../../assets/img/logo_white.png" style="margin-bottom: 5px;">
-          <label>PAY<b>HIRAM</b></label>
+          <label>{{common.APP_NAME_HTML}}</label>
         </a>
       </span>
       <span class="menu">
@@ -183,13 +183,15 @@
 
 </style>
 <script>
-import ROUTER from '../../../router'
-import AUTH from '../../../services/auth'
+import ROUTER from 'src/router'
+import AUTH from 'src/services/auth'
+import COMMON from 'src/common.js'
 export default {
   mounted(){
   },
   data(){
     return {
+      common: COMMON
     }
   },
   methods: {

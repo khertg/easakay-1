@@ -10,9 +10,6 @@
     create(){
 
     },
-    components: {
-      'modal': require('../../components/modal/Modal.vue')
-    },
     mounted(){
     },
     data(){
