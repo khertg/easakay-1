@@ -8,6 +8,6 @@ api/
 api/composer.lock
 src/components/increment
 node_modules/
-src/config.js
+# src/config.js
 api/.env
 dist/
