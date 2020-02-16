@@ -104,6 +104,7 @@ export default {
     }
     vue.APIRequest('authenticate', credentials, (response) => {
       this.tokenData.token = response.token
+      console.log(response)
       vue.APIRequest('authenticate/user', {}, (userInfo) => {
         let parameter = {
           'condition': [{
@@ -112,7 +113,9 @@ export default {
             'column': 'id'
           }]
         }
+        console.log(userInfo)
         vue.APIRequest('accounts/retrieve', parameter).then(response => {
+          console.log(response)
           if(response.data.length > 0){
             this.otpDataHolder.userInfo = userInfo
             this.otpDataHolder.data = response.data

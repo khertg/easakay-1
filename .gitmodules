@@ -1,0 +1,12 @@
+[submodule "src/components/increment/support"]
+	path = src/components/increment/support
+	url = git@github.com:incrementtechnologies/support.git
+[submodule "src/components/increment/basic"]
+	path = src/components/increment/basic
+	url = git@github.com:incrementtechnologies/basic.git
+[submodule "src/components/increment/generic"]
+	path = src/components/increment/generic
+	url = git@github.com:incrementtechnologies/generic.git
+[submodule "src/components/increment/settings"]
+	path = src/components/increment/settings
+	url = git@github.com:incrementtechnologies/settings.git
