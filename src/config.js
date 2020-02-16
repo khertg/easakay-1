@@ -1,5 +1,5 @@
 let LIVE_BACKEND_URL = 'http://api.payhiram.increment.ltd/public/increment/v1'
-let DEV_BACKEND_URL = 'http://localhost:8080/easakay-1/api/public/increment/v1'
+let DEV_BACKEND_URL = 'http://localhost:8000/increment/v1'
 let isDev = true
 let BACKEND_URL = isDev ? DEV_BACKEND_URL : LIVE_BACKEND_URL
 export default{
