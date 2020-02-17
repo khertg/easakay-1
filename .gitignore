@@ -6,8 +6,8 @@ selenium-debug.log
 api/vendor/
 api/
 api/composer.lock
-src/components/increment
+# src/components/increment
 node_modules/
-# src/config.js
+src/config.js
 api/.env
 dist/
