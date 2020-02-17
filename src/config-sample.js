@@ -8,6 +8,10 @@ export default{
   IMAGE_URL: BACKEND_URL + '/image/',
   BACKEND_URL: BACKEND_URL,
   PUSHER_KEY: isDev ? '0e902f164497c0a13a68' : '8632a0cbef05aecb5196',
+  PUSHER: {
+    flag: '',
+    key: isDev ? '0e902f164497c0a13a68' : '8632a0cbef05aecb5196'
+  },
   APP_NAME: 'PAYHIRAM',
   APP_NAME_VHTML: 'PAY<b>HIRAM</b>',
   APP_EMAIL: 'support@payhiram.ph',
